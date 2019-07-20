@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Domine|Nanum+Gothic&display=swap');
+body {
+	font-family: 'Nanum Gothic', sans-serif;
+	line-height: 1.4;
+	font-size: 0.75rem;
+}
+
+h2 {
+	font-family: 'Domine', serif;
+}
+
+nav {
+    background-color: #418615!important;
+	color :#fff;
+}
+.navbar-collapse {
+	justify-content:center;
+}
+
+li.nav-item {
+    margin: 5px 40px;
+}
+
+.navbar-brand { 
+	margin-left:40px;
+}
+.nav-link {
+	color : #fff !important;	
+}
+
+.tabs {
+    padding: 40px;
+    text-align: center;
+}
+
+.area {
+	justify-content:center;
+	padding:40px;
+}
+
+figure {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 305px;
+    margin-bottom: 20px;
+}
+
+.tabs button {
+    margin: 0 40px;
+    padding: 9px 44px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.14);
+    border: 0px;
+    background: #297373;
+    transition: all 0.4s ease-in-out;
+	border: 1px solid #297373;
+    color: #fff;
+    border-radius: 19px;
+}
+
+.tabs button:hover {
+    background: #fff;
+    border: 1px solid #297373;
+    color: #297373;
+}
+
+footer {
+    padding: 40px 0 40px;
+}
+
+
+footer .social-icon h4 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    margin-right: 25px
+}
+.social-icon {
+	text-align:center;
+}
+
+.active {
+	background: #418615!important;
+}
+.active:hover {
+	color: #fff !important;
+}
+footer .social-icon ul li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px
+}
+
+hr {
+    margin: 0 285px;
+    padding: 1px;
+    background: #297373;
+    border: 0;
+}
+
+footer .social-icon ul li a {
+    font-size: 24px;
+	color:#000;
+	font-weight: 600;
+	text-decoration:none;
+}
+
+.social-icon ul li a:hover {
+    color: #297373;
+}
+
+/* Media Queries */
+@media only screen and (min-width: 30rem) {
+	.area {
+		justify-content:flex-start;
+		padding:40px;
+	}
+	.social-icon {
+		text-align:left;
+	}
+	body {
+		font-size: 1rem;
+	}
+}
+@media only screen and (min-width: 60rem) {
+	.area {
+		justify-content:center;
+		padding:40px;
+	}
+	.social-icon {
+		text-align:center;
+	}
+	body {
+		font-size: 1rem;
+	}
+}
